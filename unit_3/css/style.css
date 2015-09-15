@@ -1,0 +1,44 @@
+body { 
+	background-color: #000728;
+}
+
+* {
+	margin: 0;
+}
+
+h1 { 
+	color: #c93648;
+	font-family: 'Oswald', sans-serif;
+	/*line-height: 120px */
+	font-size: 80px;
+}
+
+p, ul { 
+	color: #7f8393;
+	margin-bottom: 20px
+
+}
+
+div { 
+	margin-top: 10px;
+	margin-left: 20px
+}
+
+#slogan {
+	color: #f2d989;
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+	font-size: 40px
+}
+
+a:link {
+	color: #7f8393;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.bodytext {
+	max-width: 800px;
+}
