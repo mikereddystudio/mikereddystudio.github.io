@@ -1,33 +1,25 @@
+* { margin: 0; padding:0; box-sizing:border-box; }
 body { 
 	background-color: #cfe1e6;
+	font-family: 'Belleza', serif;
+	font-size:16px;
+	color: #222;
 }
-
-* {
-	margin: 0;
-}
-
 h1 { 
 	color: #fff;
-	font-family: 'Oswald', sans-serif;
-	font-size: 30px;
-	padding: 5px;
+	font-size: 2em;
 	text-transform: uppercase;
-
 }
-
-h1, nav, ul {
-	display: inline;
+h1, nav, ul, li {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
 }
 
 p { 
-	font-family: 'Belleza', serif;
-	color: #000;
-	font-size: .85em;
 	margin-bottom: 1.25em; 
 }
 
 ul {
-	font-family: 'Oswald', sans-serif;
 	color: #fff;
 	font-size: 1em;
 	list-style: none;
@@ -37,55 +29,28 @@ nav {
 	text-transform: uppercase;
 }
 
-li {
-	display: inline;
-	padding: 0px 10px;
-
-}
-
 header { 
 	background: #000;
 	margin: 0;
-	padding: 0 0 0 20px;
-	height: 50px;}
-
-
-div { 
-	margin: 0;
-	padding: 0;
-	display: block;
-}
-
-section { 
-	margin: 0;
-	padding: 0;
-
+	padding: 1em;
+	height: 50px;
 }
 
 section img {
     width: 100%;
-    height: auto;
     display: block;
 }
-
-#news {
-	color: #000;
-	font-family: 'Belleza', serif;
-	font-size: 1.5em;
-}
-
-#footer {
-	color: #000;
+footer {
 	font-family: 'Oswald', sans-serif;
-	font-size: .5em;
+	font-size: .75em;
 }
 
-a:link {
+a {
 	color: #7f8393;
 }
 
 a:hover {
-    color: #000;
+	color: #222;
 }
 
 .bodytext {
@@ -97,18 +62,22 @@ a:hover {
 }
 
 .container{ 
-	margin: 0;
 	padding: 10px 10px 10px 40px;
 }
 
 .footerblock{ 
 	background-color: #cfe1e6;
-	margin: 0;
     width: 100%;
     /*position: absolute;
     bottom: 0;
     left: 0;*/
 
+}
+#splash {
+	background-image:url(../assets/escapecvr.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 90vh;
 }
 
 
