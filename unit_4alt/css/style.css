@@ -1,0 +1,166 @@
+body { 
+	background-color: #cfe1e6;
+}
+
+* {
+	margin: 0;
+}
+
+h1 { 
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+
+}
+
+h1, nav, ul {
+	display: inline;
+}
+
+p { 
+	font-family: 'Belleza', serif;
+	color: #000;
+	font-size: .85em;
+	margin-bottom: 1.25em; 
+}
+
+ul {
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	font-size: 1em;
+	list-style: none;
+}
+
+nav {
+	text-transform: uppercase;
+	display: inline-block;
+
+}
+
+li {
+	display: inline;
+	padding: 0px 10px;
+
+}
+
+header { 
+	background: #000;
+	margin: 0;
+	padding: 5px 0 0 20px;
+	height: 50px;}
+
+
+div { 
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+section { 
+	margin: 0;
+	padding: 0;
+
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+#news {
+	color: #000;
+	font-family: 'Belleza', serif;
+	font-size: 1.5em;
+	background-color: #f4f4f5;
+	padding: 0 0 0 20px ;
+	display: inline-block;
+
+}
+
+#footer {
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+	font-size: .5em;
+	padding: 0 0 0 20px ;
+	display: inline-block;
+
+}
+
+a:link {
+	color: #7f8393;
+}
+
+a:hover {
+    color: #000;
+}
+
+.bodytext {
+	max-width: 800px;
+}
+
+.newsbod{
+		font-size: .5em;
+}
+
+
+.newsblock{ 
+	background-color: #eef1f2;
+}
+
+.container{ 
+	margin: 0;
+	padding:0;
+	display: block;
+}
+
+.footerblock{ 
+	background-color: #cfe1e6;
+	margin: 0;
+    width: 100%;
+    /*position: absolute;
+    bottom: 0;
+    left: 0;*/
+
+}
+
+.pop { 
+	color: #cfe1e6;
+}
+
+.menu {
+	line-height: 40px;
+}
+
+* Images & Media
+–––––––––––––––––––––––––––––––––––––––––––––– */
+img{max-width: 100%;}
+img:hover{opacity:0.8;}
+.featured{ 
+	max-width: 100%;
+	height: auto;
+}
+section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than mobile */
+@media (max-width: 479px) {
+	.logo a{font-size: 2em;}
+	.ann a{font-size: 1em;}
+
+	.main{padding-top:15%;}
+	.portfolio img{margin-bottom: 10%;}
+	img.avatar{margin-top: 15%;}
+	h2.bio{font-size: 2.5em;}
+	p.bio{font-size: 1.25em;color: #000000;}
+	ul.social li a{font-size: .75em;}
+}
+
+
+
