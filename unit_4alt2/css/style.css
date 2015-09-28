@@ -1,0 +1,320 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
+@import url(https://fonts.googleapis.com/css?family=Stardos+Stencil:400,700);
+
+* { margin: 0; padding:0; box-sizing:border-box; }
+
+body { 
+	background-color: #fff;
+	font-family: 'Raleway', Courier, monospace;
+	font-size:16px;
+	color: #222;
+	line-height: 1.618em;
+	height: 100%;
+}
+h1 { 
+	color: #222;
+	font-size: 3em;
+	text-transform: uppercase;
+	line-height: 1em;
+	font-family: 'Stardos Stencil', sans-serif;
+	display: inline-block;
+}
+
+h2 { 
+	color: #222;
+	font-size: 1em;
+	line-height: 1em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	padding-bottom: 1em;
+
+
+}
+h3 { 
+	color: #222;
+	font-size: 3em;
+	line-height: 1em;
+	font-family: 'Stardos Stencil', sans-serif;
+	font-weight: 700;
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+
+nav, ul, li {
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: .05em;
+
+
+}
+	p { 
+	margin-bottom: 1em;
+	max-width: 50%; 
+	display: block;
+	  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+
+ul {
+	color: #fff;
+	list-style: none;
+}
+
+li {
+	font-family: 'Stardos Stencil', sans-serif;
+	padding-right: 2.5em;
+	font-size: 1.25em;
+	font-weight: 300;
+}
+li a:link {
+	color: #fff;
+}
+li a:visited {
+	color: #fff;
+}
+li a:hover {
+	color: #ffff00;
+}
+li a:active {
+	color: #fff;
+	}
+
+nav {
+	vertical-align: top;
+}
+header { 
+	background: #222;
+	margin: 0;
+	padding: 2em 1em 1em 1em; 
+	display: block;
+	text-align: center;
+
+
+}
+section img {
+    width: 100%;
+    display: block;
+}
+
+footer {
+	font-family: 'Raleway', sans-serif;
+	font-size: .75em;
+	text-transform: uppercase;
+	background-image:url(../images/bg_pattern.jpg);
+	background-size:cover;
+	text-align: center;
+
+}
+address{
+		font-style: normal;
+}
+a {
+	color: #222;
+	text-decoration: none;
+}
+
+hr {
+    background-color: #222;
+    border: 0 none;
+    color: #222;
+    height: 1px;
+    margin: 2em 4em;
+}
+
+
+a:hover {
+	color: #999;
+}
+.item {
+	text-align: center;
+	max-width: 1000px;
+	margin-left: auto;
+    margin-right: auto
+
+}
+.topblock {
+	display: inline-block;
+	min-width: 100%
+}
+.aboutblock {
+		text-align: center;
+		width: 50%;
+}
+.gallery {
+		padding: 0em 0 1em 0;
+	}
+
+/*img:hover {
+    opacity: .8;
+}*/
+
+.container{ 
+	padding: 3em;
+}
+.pub {
+	font-weight: 700;
+/*	color: red;
+*/
+}
+.story {
+		font-family: 'Raleway';
+
+}
+.descrip {
+	text-transform: uppercase;
+	letter-spacing: .125em;
+	font-size: 1em;
+	font-family: 'Stardos Stencil';
+	padding-top: .5em;
+	letter-spacing: .125em;
+}
+
+.line {
+	background-image:url(../images/pencilline.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 6px;
+	margin: 2em 0 2em 0;
+}
+
+#logo {
+	display: inline-block;
+	padding-right: 2.5em;
+	height: 34px;
+	vertical-align: center;
+}
+.navcollected {
+	vertical-align: center;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+	background-color: #fff
+}
+.buttons {
+	font-family: 'Raleway';
+	font-size: 300;
+	font-size: 1em;
+	display: inline-block;
+	padding: 0 1em;
+	line-height: 1em;
+	text-transform: uppercase;
+	letter-spacing: .125em;
+}
+.burst {
+	padding: 1.25em 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .75em;
+	line-height: 1.125em;
+	opacity: .8;
+}
+.prev {
+	text-align:  left;
+}
+.next {
+	text-align:  left;
+}
+.bottombg {
+	padding-bottom: 20em;
+}
+div.fixed {
+    position: fixed;
+    top: 50%;
+    width: 5em;
+    height: 5em;
+    background-color: #ffff00;
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: none;
+}
+
+.prevleft {
+	position: fixed;
+	left: 1em;
+}
+
+
+.inset img {
+    width: 50%;
+    height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0;
+}
+
+.inset2 img {
+    width: 75%;
+    height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0;
+}
+
+.nextright {
+	position: fixed;
+	right: 1em;
+
+}
+ div.feature a {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        text-decoration: none; /* No underlines on the link */
+        z-index: 10; /* Places the link above everything else in the div */
+        background-color: #FFF; /* Fix to make div clickable in IE */
+        opacity: 0; /* Fix to make div clickable in IE */
+        filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+    }
+
+
+/*#newsbar {
+	padding: .125em;
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: .618em;
+	background-color: #014a4a;
+	text-align: center;
+}
+/*hover test*/
+./*featured {
+    position: relative;*/ /* or absolute, if needed */
+/*}
+
+.covering {
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    -o-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+.featured:hover .covering {
+    opacity: 0.6;
+}
+
+.background {
+    width: 100%; height: 100%;
+    background: black;
+}
+.foreground {
+    height: 38px;
+    bottom: 0; right: 0;
+    margin: auto;
+    text-align: center;
+}*/
+
+*/
+
+
