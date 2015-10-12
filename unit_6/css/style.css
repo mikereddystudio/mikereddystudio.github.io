@@ -21,10 +21,6 @@ header {
 	text-transform: uppercase;
 	padding: 20px;
 }
-header img {
-	float:left;
-	width:50%;
-}
 nav a { 
 	color: #222;
 	text-decoration: none;
@@ -217,13 +213,17 @@ hr {
 #splash {
 	background:#993233;
 }
+#splash img {
+	float:left;
+	width:50%;
+}
 #copyright {
 	font-size: .618em;
 	text-transform: none;
 	word-spacing: 0em;
 }
 .page-wrap {
-  text-align: left;
-  width: 1200px;
-  margin: 0 auto;
+	text-align: left;
+	max-width: 1200px;
+	margin: 0 auto;
 }
