@@ -77,9 +77,13 @@ main {
 	background: #fff;
 }
 
-
-.subhed {
-	padding:20px;
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #222;
+    margin: 1em 0;
+    padding: 0;
 }
 
 .clearfix:after {
@@ -105,20 +109,32 @@ main {
 	text-align: center;
 }
 
-.section {
-	width: 1025px;
-	margin: auto;
-  	display: inline-block;
-}
-
 .featured {
 	display: inline-block;
 	float: left;
 	background-color: #993233;
 	height: 308px;
 }
+
+.featuredchannel {
+	display: inline-block;
+	float: left;
+	background-color: #993233;
+	height: 100px;
+}
+
 .channelbg {
 	background-color: #993233;
+}
+
+.container {
+	width: 315px;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.container .subhed {
+	padding: 0px
 }
 
 .items {
@@ -130,19 +146,6 @@ main {
 
 .items p{
 	padding: 0 0 10px 0;
-}
-
-#displayimage {
-	padding: 0;
-}
-.container {
-	width: 315px;
-	padding: 10px;
-	background-color: #fff;
-}
-
-.container .subhed {
-	padding: 0px
 }
 .merch {
 	display: inline-block;
@@ -168,43 +171,11 @@ main {
 	width: 142px;
 	}
 
-#displaytext {
-	padding: 20px;
-	width: 50%;
-}
-
-.featuredchannel {
-	display: inline-block;
-	float: left;
-	background-color: #993233;
-	height: 100px;
-}
-
-#logo {
-	float: left;
-	}
-
-#navmenu {
-	float: right;
-	width: 100%;
-	max-width: 670px;
-	text-align: left;
-	word-spacing: 3em;
-}
 .rowNumber1 {
 	display: block;
 }
 .rowNumber2 {
 	display: block;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #222;
-    margin: 1em 0;
-    padding: 0;
 }
 
 .leftitem {
@@ -213,6 +184,36 @@ hr {
 
 .rightitem {
 	padding-left: 5px;
+}
+.section {
+	width: 1025px;
+	margin: auto;
+  	display: inline-block;
+}
+
+.subhed {
+	padding:20px;
+}
+
+#logo {
+	float: left;
+	}
+
+#displaytext {
+	padding: 20px;
+	width: 50%;
+}
+
+#displayimage {
+	padding: 0;
+}
+
+#navmenu {
+	float: right;
+	width: 100%;
+	max-width: 670px;
+	text-align: left;
+	word-spacing: 3em;
 }
 
 footer {
