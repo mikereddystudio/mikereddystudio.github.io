@@ -5,49 +5,49 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<div id="page-wrap">
-	<nav class="clearfix">
-		<div id="logo">
+<body>
+	<div class="page-wrap">
+		<header class="clearfix">
 			<a href="index.html"><img src="images/logo.jpg"></a>
-		</div>
-		<div id="navmenu">	
-			 <ul>
-			 	<li><a href="#">coffee</a></li>
-				<li><a href="#">tea</a></li>
-				<li><a href="regions.html">regions</a></li>
-				<li><a href="#">cards</a></li>
-				<li><a href="#">shop</a></li>
-				<li><a href="#">company</a></li>
-			</ul>
-		</div>
-	</nav>
-	<body>
-		<section class="clearfix">
-			<div id="displayimage" class="featured">
-				<img src="images/hero.jpg">
-			</div>
-			<div id="displaytext" class="featured">	
-				<h1>A Taste of<br>International<br>Flavor</h1>
-			</div>
+			<nav id="navmenu">	
+				 <ul>
+				 	<li><a href="#">coffee</a></li>
+					<li><a href="#">tea</a></li>
+					<li><a href="regions.html">regions</a></li>
+					<li><a href="#">cards</a></li>
+					<li><a href="#">shop</a></li>
+					<li><a href="#">company</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="clearfix" id="splash">
+			<img src="images/hero.jpg" class="featured">
+			<h1>A Taste of International Flavor</h1>
 		</section>
-		<main class="clearfix">
-			<div class="subhed">
-				<h3>drinks by region</h3>
-			</div>
-			<div class="column">
-				<img src="images/asia.jpg"><p>Asia</p>
-			</div>
-			<div class="column">
-				<img src="images/america.jpg"><p>America</p>
-			</div>
-			<div class="column">
-				<img src="images/europe.jpg"><p>Europe</p>
-			</div>
-		</main>
-	</body>
-	<footer>
-	Privacy Policy | Terms of Use | Contact Us | Site Map <p>
-	<span id="copyright">&copy; DW Coffee Corp</span>
-	</footer>
-</div>
+		<section class="clearfix">
+			<h3>drinks by region</h3>
+			<figure class="column">
+				<img src="images/asia.jpg">
+				<figcaption>Asia</figcaption>
+			</figure>
+			<figure class="column">
+				<img src="images/america.jpg">
+				<figcaption>America</figcaption>
+			</figure>
+			<figure class="column">
+				<img src="images/europe.jpg">
+				<figcaption>Europe</figcaption>
+			</figure>
+		</section>
+		<footer>
+			<nav class="footernav">
+				<a href="#">Privacy Policy</a> | 
+				<a href="#">Terms of Use</a> | 
+				<a href="#">Contact Us</a> | 
+				<a href="#">Site Map</a>
+			</nav>
+			<p id="copyright">&copy; DW Coffee Corp</p>
+		</footer>
+	</div>
+</body>
 </html>
