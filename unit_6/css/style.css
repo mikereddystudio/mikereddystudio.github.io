@@ -58,6 +58,15 @@ h1 {
 	width:50%;
 }
 
+h2 {
+	font-family: 'Alice';
+	font-weight: normal;
+	font-size: 1.618em;
+	color: #993233;
+	text-align: center;
+	line-height: 2em
+}
+
 h3 {
 	font-size: .75em;
 	font-weight: 400;
@@ -66,7 +75,7 @@ h3 {
 	letter-spacing: .1em;
 	color: #222;
 	line-height: 2em;
-	padding: 0 0 20px 0;
+	padding: 10px;
 	display: block;
 }
 
@@ -85,13 +94,9 @@ li {
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #222;
-    margin: 1em 0;
-    padding: 0;
-}
+ 	border-top: 1px solid #222;
+	margin-top: 10px
+ }
 
 .clearfix:after {
     visibility: hidden;
@@ -104,28 +109,16 @@ hr {
 
 .column {
 	float: left;
-	width: 33%;
+	width: 33.33%;
+}
+.column hr {
+	margin: 10px;
 }
 
-.leftcol {
-	padding: 0 14px 0 0;
+.filler {
+	width: 100%;
+	padding: 10px;
 }
-
-.rightcol {
-	padding: 0 0 0 14px;
-}
-
-.middlecol {
-	padding: 0 7px 0 7px;
-}
-
-figure {
-	font-family: 'Alice';
-	font-weight: normal;
-	font-size: 1.618em;
-	color: #993233;
-	text-align: center;
-	line-height: 2em
 }
 .featuredchannel {
 	display: inline-block;
@@ -167,7 +160,7 @@ figure {
 .merch {
 	display: inline-block;
 	float: left;
-	padding: 0 0 10px 0;
+	padding: 10px;
 	width: 50%;
 
 
@@ -179,6 +172,10 @@ figure {
 	font-weight: 400;
 	color: #222;
 	line-height: 1.618em;
+}
+
+#maincontent a, h2 {
+	text-decoration: none;
 }
 
 .merch a {
@@ -243,11 +240,11 @@ header img {
 	width:50%;
 }
 #maincontent {
-	padding: 20px;
+	padding: 20px 10px 20px 10px;
 	background-color: #fff;
 }
 #maincontentchannel{
-	padding: 20px;
+	padding: 10px;
 	background-color: #fff;
 }
 #maincontent figure {	width:33.33%;
