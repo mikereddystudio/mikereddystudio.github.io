@@ -21,6 +21,7 @@ header {
 	text-transform: uppercase;
 	padding: 20px;
 }
+
 nav a { 
 	color: #222;
 	text-decoration: none;
@@ -33,10 +34,10 @@ footer {
 	padding: 20px;
 	letter-spacing: .1em;
 	word-spacing: .5em;
+	line-height: 2em;
 }
 figure {
 	float:left;
-	width:33.33%;
 }
 figure img {
 	width:100%;
@@ -64,6 +65,9 @@ h3 {
 	text-align: center;
 	letter-spacing: .1em;
 	color: #222;
+	line-height: 2em;
+	padding: 0 0 20px 0;
+	display: block;
 }
 
 ul {
@@ -99,17 +103,29 @@ hr {
 }
 
 .column {
-	width: 315;
-	padding: 0px 0 20px 20px;
 	float: left;
+	width: 33%;
 }
 
-.column p {
+.leftcol {
+	padding: 0 14px 0 0;
+}
+
+.rightcol {
+	padding: 0 0 0 14px;
+}
+
+.middlecol {
+	padding: 0 7px 0 7px;
+}
+
+figure {
 	font-family: 'Alice';
 	font-weight: normal;
 	font-size: 1.618em;
 	color: #993233;
 	text-align: center;
+	line-height: 2em
 }
 .featuredchannel {
 	display: inline-block;
@@ -118,6 +134,12 @@ hr {
 	height: 100px;
 }
 
+.footernav a {
+	color: #fff;
+}
+
+
+}
 .channelbg {
 	background-color: #993233;
 }
@@ -146,6 +168,8 @@ hr {
 	display: inline-block;
 	float: left;
 	padding: 0 0 10px 0;
+	width: 50%;
+
 
 }
 
@@ -162,23 +186,17 @@ hr {
 	text-decoration: none;
 }
 
-.merch img {
-	width: 142px;
-	}
-
-.rowNumber1 {
+.row {
 	display: block;
-}
-.rowNumber2 {
-	display: block;
+	width: 100%;
 }
 
 .leftitem {
-	padding-right: 5px;
+	padding-right: 10px;
 }
 
 .rightitem {
-	padding-left: 5px;
+	padding-left: 10px;
 }
 .section {
 	width: 1025px;
@@ -190,7 +208,7 @@ hr {
 	padding:20px;
 }
 
-#logo {
+header img {
 	float: left;
 	}
 
@@ -210,6 +228,13 @@ hr {
 	text-align: left;
 	word-spacing: 3em;
 }
+.cat {
+	display: inline-block;
+	float: left;
+	padding: 0 0 0 0;
+	width: 100%;
+
+}
 #splash {
 	background:#993233;
 }
@@ -217,6 +242,28 @@ hr {
 	float:left;
 	width:50%;
 }
+#maincontent {
+	padding: 20px;
+	background-color: #fff;
+}
+#maincontentchannel{
+	padding: 20px;
+	background-color: #fff;
+}
+#maincontent figure {	width:33.33%;
+}
+
+.shopping {
+background-color: #fff;
+display: block;
+}
+.shopping img { 
+	float: left; 
+	width: 100%;
+	display: block;
+}
+
+
 #copyright {
 	font-size: .618em;
 	text-transform: none;
