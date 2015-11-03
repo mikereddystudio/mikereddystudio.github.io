@@ -4,10 +4,9 @@
 * { margin: 0; padding:0; box-sizing:border-box; }
 
 body { 
-	background-color: #ddd;
+	background-color: #222;
 	font-family: 'Poppins', Courier, monospace;
 	font-size:16px;
-	color: #222;
 	line-height: 1.618em;
 	height: 100%;
 }
@@ -43,6 +42,8 @@ header {
 header h1{ 
 	text-align: center;
 	color: #f6f6f6;
+	text-align: center;
+
 }
 section, footer {
 	padding:3em 0;
@@ -54,7 +55,8 @@ h1 {
 	line-height: 1em;
 	font-family: 'Poppins', sans-serif;
 	display: inline-block;
-	padding-bottom: .25em
+	padding-bottom: .25em;
+	text-align: center;
 }
 h2 { 
 	color: #222;
@@ -63,20 +65,24 @@ h2 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	padding-bottom: .5em;
+	text-align: center;
 }
 h3 { 
 	text-transform: uppercase;
-	letter-spacing: .125em;
+	letter-spacing: .05em;
 	font-size: 1em;
 	font-family: 'Poppins';
-	letter-spacing: .125em;
 	font-weight: 400;
+	text-align: center;
+	padding: 1em;
+
 }
 p { 
 	margin-bottom: 1em;
 	max-width: 50%; 
 	margin-left: auto;
 	margin-right: auto;
+	color: #222;
 }
 nav a:link {
 	color: #222;
@@ -129,14 +135,11 @@ h1 a:visited {
 	color: #fff;
 }
 h1 a:hover {
-	color: #0066ff;
+	color: #fff;
 }
 h1 a:active {
-	color: #0066ff;
+	color: #fff;
 	}
-.bottombg {
-	padding-bottom: 20em;
-}
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -165,7 +168,6 @@ h1 a:active {
 }
 .runninggraph {
 	display: block;
- 	text-align: left;
 }
 .runninggraph:first-letter {
  						display: block;
@@ -178,7 +180,6 @@ h1 a:active {
 	min-width: 100%
 }
 .wrapper {
-	text-align: center;
 	max-width: 1200px;
 	margin: auto;
 	background-color: #f6f6f6;
@@ -186,8 +187,6 @@ h1 a:active {
 #gallery p {
 	font-size: 1em;
 	font-family: 'Poppins';
-	padding-top: 1em;
-	letter-spacing: .05em;
 }
 #gallery img {
 			padding: 1em;
@@ -209,7 +208,6 @@ h1 a:active {
 	font-size: 1em;
 	font-family: 'Poppins';
 	padding-top: 1em;
-	letter-spacing: .05em;
 }
 #logo {
 	max-width: 100%;
@@ -265,6 +263,8 @@ h1 a:active {
 	}
 	#menu:checked + nav{
 		display: block;
+		position: absolute;
+		width: 100%;
 	}
 
 	#logo{
