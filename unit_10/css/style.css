@@ -251,6 +251,10 @@ h1 a:active {
 	display: none;
 }
 #splash {
+	background-image:url(../images/splash1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 60vh;
 	margin: 0;
 	padding: 0;
 }
