@@ -225,7 +225,8 @@ h1 a:active {
 }
 .inset img {
 			padding: 1em;
-			max-width: 50%;
+			width: 75%;
+			max-width: 500px;
 			background-color: #fff;
 			display: block;
     		margin-left: auto;
