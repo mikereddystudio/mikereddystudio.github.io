@@ -384,6 +384,14 @@ h4 {
 	.smoothScroll {
 		display: none;
 	}
+	#splash {
+	background-image:url(../images/splash1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 40vh;
+	margin: 0;
+	padding: 0;
+}
 
 /*#newsbar {
 	padding: .125em;
