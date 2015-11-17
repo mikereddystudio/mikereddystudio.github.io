@@ -1,16 +1,12 @@
-// copy and paste the code below into a separate file called "splash.js"
-
-// in your version, change these to be relative file paths
 var images = [
-    '../images/splash1.jpg',  
-    '../images/splash2.jpg', 
-    '../images/splash3.jpg';
+    'splash1.jpg',  
+    'splash2.jpg', 
+    'splash3.jpg'];
     
-$('<img class="splash-imgs" src="../images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#splash');
+$('<img class="splash-imgs" src="../splashrotate/images/splash/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#splash');
 
-// you'll need to adjust this script slightly to use relative file paths:
-/*
 
-$('<img class="splash-imgs" src="../images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#splash');
 
-*/
+//		the current file path for images is:  "../splashrotate/images/splash/splash1.jpg"
+//		this will probably change in the future, so pay attention to line 6 in the js file
+
