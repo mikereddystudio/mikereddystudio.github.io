@@ -3,7 +3,7 @@ var images = [
     'splash2.jpg', 
     'splash3.jpg'];
     
-$('<img class="splash-imgs" src="../working/images/splash/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#splash');
+$('<img class="splash-imgs" src="../images/splash/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#splash');
 
 
 
